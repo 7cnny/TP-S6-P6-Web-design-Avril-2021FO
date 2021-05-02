@@ -11,7 +11,7 @@
     <footer>
         <img src="<?php echo base_url();?>assets/img/itu.png" width="50" height="50" class="d-inline-block align-top">
         <div id="footer-e1">
-            <a class="footer-titre"><u>Binome:</u></a><br><br>
+            <a class="footer-titre"><u>Nom/Prenom:</u></a><br><br>
             <a>ANDRIAMBOLOLONA TONNY</a><br><br>
         </div>
 
