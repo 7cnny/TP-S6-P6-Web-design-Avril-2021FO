@@ -67,9 +67,9 @@
                             <td > 
                                 <h4> <a class="ph3" href="covid19-province-de-madagascar-<?php echo $evolutionProvinces[$i]['nom_province'] ?>-2021.html"> <?php echo ucwords($evolutionProvinces[$i]['nom_province']) ?></a> </h4> 
                             </th>
-                            <td> <a class="tab_caractere"> <?php echo $evolutionProvinces[$i]['positifs'] ?> </a> </th>
-                            <td> <a class="tab_caractere"> <?php echo $evolutionProvinces[$i]['gueris'] ?> </a> </th>
-                            <td class="td-last"> <a class="tab_caractere"> <?php echo $evolutionProvinces[$i]['deces'] ?> </a> </th>
+                            <td> <a class="tab_caractere"> <?php echo number_format($evolutionProvinces[$i]['positifs']) ?> </a> </th>
+                            <td> <a class="tab_caractere"> <?php echo number_format($evolutionProvinces[$i]['gueris']) ?> </a> </th>
+                            <td class="td-last"> <a class="tab_caractere"> <?php echo number_format($evolutionProvinces[$i]['deces']) ?> </a> </th>
                         </tr>
                     <?php 
                         }
