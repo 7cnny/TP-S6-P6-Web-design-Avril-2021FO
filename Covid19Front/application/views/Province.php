@@ -1,6 +1,12 @@
 <?php
     $province = $_GET['province'];
-    $data['actualites'] = $actualites;
+    $dataPoints = array(
+        array("y" => 122, "label" => "Janvier"),
+        array("y" => 96, "label" => "Fevrier"),
+        array("y" => 169, "label" => "Mars"),
+        array("y" => 342, "label" => "Avril"),
+        array("y" => 301, "label" => "Mai"),
+    );
 ?>
 
 <!DOCTYPE html>
@@ -14,9 +20,25 @@
         <meta name="author" content="Tonny Andriambololona"/>
         <meta name="robots" content="index,follow"/>
         <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url();?>assets/css/design.css">
+        <script>
+            window.onload = function () {
+            
+            var chart = new CanvasJS.Chart("chartContainer", {
+                title: {
+                    text: "Evolution des nouveaux cas"
+                },
+                axisY: {
+                    title: "Nombre de nouveaux cas"
+                },
+                data: [{
+                    type: "line",
+                    dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
+                }]
+            });
+            chart.render();
+            }
+        </script>
     </head>
-
-    <body>
     <body>
         <br>
         
@@ -41,12 +63,17 @@
                         en ce moment a ce qui semble etre une deuxieme vague de l'epidemie. Voici les chiffres: 
                     </h3>
                 </div>
+                
+                <div id="chartContainer" style="height: 370px; width: 80%;"></div>
+                <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>   
+
             </div>
 
-            <?php $this->load->view('NavActualites',$data); ?>
+            <?php $this->load->view('NavActualites'); ?>
 
         </div>
-    </body>
+
+        
     </body>
 
 </html>
