@@ -67,9 +67,9 @@
                             <td scope="col" > 
                                 <h4> <a class="ph3"> <?php echo ucwords($evolutionPays[$i]['nom_pays']) ?> </a> </h4> 
                             </th>
-                            <td> <a class="tab_caractere"> <?php echo $evolutionPays[$i]['positifs'] ?> </a> </th>
-                            <td> <a class="tab_caractere"> <?php echo $evolutionPays[$i]['gueris'] ?> </a> </th>
-                            <td class="td-last"> <a class="tab_caractere"> <?php echo $evolutionPays[$i]['deces'] ?> </a> </th>
+                            <td> <a class="tab_caractere"> <?php echo number_format($evolutionPays[$i]['positifs']) ?> </a> </th>
+                            <td> <a class="tab_caractere"> <?php echo number_format($evolutionPays[$i]['gueris']) ?> </a> </th>
+                            <td class="td-last"> <a class="tab_caractere"> <?php echo number_format($evolutionPays[$i]['deces']) ?> </a> </th>
                         </tr>
                     <?php 
                         }
