@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 
+RewriteRule ^/?.*/covid19-dans-le-monde-en-2021.html$ index.php?c=Welcome&m=to_world 
+RewriteRule ^/?.*/covid19-a-madagascar-en-2021.html$ index.php?c=Welcome&m=to_madagascar
+RewriteRule ^/?.*/covid19-actualite-2021-([_a-z0-9]*).html$ index.php?c=Actualites_c&m=details_actu&id_actu=$1
+RewriteRule ^/?.*/covid19-province-de-madagascar-([_a-z0-9]*)-2021.html$ index.php?c=Province_c&m=province_info&province=$1 [L,QSA]
+IndexOptions ShowForbidden
+

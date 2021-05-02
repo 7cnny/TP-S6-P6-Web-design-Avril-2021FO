@@ -1,0 +1,245 @@
+body{
+    min-height: 73vh;  
+}
+
+::selection { background-color: #e11a00; color: white; }
+::-moz-selection { background-color: #fa491c; color: white; }
+
+strong
+{
+    font-weight: inherit;
+}
+
+input{
+    border-radius: 3px;
+    padding: 3px 3px 3px 3px;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+}
+
+input:focus{
+    transition: 0.4s;
+    background-color: rgb(252, 252, 252);
+    border: 2px solid rgb(13, 139, 57);
+}
+
+input[name="submit"]{
+    border-radius: 5px;
+    padding: 5px 12px 5px 12px;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(13, 139, 57);
+    font-weight: bold;
+    color: rgb(13, 139, 57);
+}
+
+input[name="submit"]:hover{
+    cursor:pointer;
+    transition: 0.6s;
+    padding: 3px 12px 7px 12px;
+    background-color: rgb(13, 139, 57);
+    border: 1px solid rgb(252, 252, 252);
+    color: rgb(247, 247, 247);
+}
+
+td{
+    width:20em;
+}
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.pourcentage {
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.barre { background-color: #2196F3;} /* Red */
+
+body{
+    min-height: 73vh;
+}
+/*
+-------------------------------MAIN CONTENT---------------------------
+*/
+
+#main-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-top: 40px 5px 30px 5px;
+    padding: 5px 2% 5px 2%;
+}
+
+/* -------------ACTUALITES---------------- */
+
+.hActus{
+    color: rgb(24, 23, 23);
+    font-family: Arial, Helvetica;
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+    padding: 9px 0px 0px 0px;
+}
+
+#actualites{
+    background-color: rgb(253, 253, 253);
+    margin: 90px 0px 40px 0px;
+    padding: 10px 10px 10px 10px;
+    min-width: 250px;
+    width: 29%;
+    height: 500px;
+    overflow: auto;
+}
+
+
+#SingleActu{
+    background-color: rgb(247, 247, 247);
+    margin: 20px 10px 10px 10px;
+    padding: 5px 20px 30px 20px;
+    width: 90%;
+    min-width: 210px;
+    
+    box-shadow: 1px 1px 13px  rgb(117, 117, 117);
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#SingleActu:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 15px  rgb(53, 53, 53);
+    border-radius: 3px;
+}
+
+.nomOffre{
+    padding: 6px 0px 10px 0px;
+    margin-bottom: 17px;
+
+    text-align: center;
+    border-bottom: solid 1px rgb(255, 4, 4);
+    color: rgb(179, 39, 39);
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.valeurOffre{
+    padding: 2px 8px 2px 16px;
+
+    justify-items: flex-end;
+    font-size: 110%;
+    border-left: rgb(46, 46, 46) solid 4px;
+}
+
+/* ---------------------------------- */
+
+#titreMain{
+    background-image: url('../img/COVID-19-madagascar-et-monde.jpg');
+    background-size: cover;
+    height: 100px;
+    padding:3px 3px 3px 3px;
+    font-size: 2.2vmin;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(172, 33, 33);
+    margin: 4px 4px 1px 1px;
+}
+
+h2{
+    font-size: 24px;
+    font-family: arial ,verdana;
+    color: rgb(65, 58, 58);
+    padding: 2px 4px 1px 10px;
+    font-size: 3.5vmin;
+}
+
+h4{
+    padding: 0px 0px 0px 0px;
+    margin: 3px 0px 6px 0px;
+}
+
+#descriptionMain{
+    display: flex;
+    margin: 20px 0px 65px 5px;
+    width: 98%;
+
+    justify-content:end;
+    font-size: 16px;
+    font-family: verdana;
+    font-style: italic;
+    line-height: 28px;
+    text-align: justify;
+    color: rgb(66, 66, 66);
+}
+
+/*--------------------------------*/
+
+a.ph3{
+    font-family: arial;
+    font-size: 1.3vw;
+    color: #c21b05;
+}
+
+h3{
+    margin: 1px 0px 1px 0px;
+    color: rgb(145, 142, 140);
+    font-size: 2.1vmin;
+}
+
+#tabListe{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 65%;
+    padding-top: 1px;
+    padding-right: 1%;
+    padding-left: 2%;
+    display: flex;
+    font-weight: bold;
+
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+}
+
+a.tab_caractere{
+    color: rgb(94, 88, 88);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    padding-left: 25px;
+    padding-right: 10px;
+    border-spacing: 0px 2px;
+    box-shadow: 3px 4px 4px 4px rgb(107, 107, 107);
+}
+
+th{
+    width: 10vw;
+    padding-bottom: 10px;
+    border-bottom: rgb(228, 228, 228) 3px solid;
+    color: rgb(26, 26, 26);
+}
+
+td{
+    width: 10vw;
+    text-align: center;
+    padding-bottom: 0px;
+    border-bottom: 1px solid rgb(243, 241, 241);
+}
+
+td.td-last{
+    border-right: rgb(255, 21, 21) 5px solid;
+    text-decoration: none;
+}
+
+tr{
+    height: 20px;
+}
