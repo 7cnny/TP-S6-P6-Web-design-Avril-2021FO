@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'covid19_url',
-	'password' => '123456',
-	'database' => 'covid19_url',
+	'hostname' => 'ec2-63-34-97-163.eu-west-1.compute.amazonaws.com',
+	'username' => 'wqbwvzounhfmet',
+	'password' => 'eb23e7d5134938b7e9200eac2108f29d92695e26bc35ab9ddce65c01cf26359b',
+	'database' => 'db7kjh71fnlu6v',
 	'dbdriver' => 'postgre',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
