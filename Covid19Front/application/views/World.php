@@ -55,10 +55,10 @@
                 <div>
                     <table>
                         <tr>
-                            <th scope="col">PAYS</th>
-                            <th scope="col">POSITIFS</th>
-                            <th scope="col">GUERIS</th>
-                            <th scope="col">DECES</th>
+			    <th><a class="tab_caractere">PAYS</a></th>
+			    <th><a class="tab_caractere">POSITIFS</a></th>
+			    <th><a class="tab_caractere">GUERIS</a></th>
+			    <th><a class="tab_caractere">DECES </a></th>
                         </tr>
                     <?php 
                         for($i=0;$i<sizeof($evolutionPays);$i++) { 
@@ -67,9 +67,9 @@
                             <td scope="col" > 
                                 <h4> <a class="ph3"> <?php echo ucwords($evolutionPays[$i]['nom_pays']) ?> </a> </h4> 
                             </th>
-                            <td scope="col"> <?php echo $evolutionPays[$i]['positifs'] ?> </th>
-                            <td scope="col"> <?php echo $evolutionPays[$i]['gueris'] ?> </th>
-                            <td class="td-last" scope="col"> <?php echo $evolutionPays[$i]['deces'] ?> </th>
+                            <td> <a class="tab_caractere"> <?php echo $evolutionPays[$i]['positifs'] ?> </a> </th>
+                            <td> <a class="tab_caractere"> <?php echo $evolutionPays[$i]['gueris'] ?> </a> </th>
+                            <td class="td-last"> <a class="tab_caractere"> <?php echo $evolutionPays[$i]['deces'] ?> </a> </th>
                         </tr>
                     <?php 
                         }
