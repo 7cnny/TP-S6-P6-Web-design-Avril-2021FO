@@ -7,9 +7,9 @@
     
     <head>
 		<meta charset="utf-8">
-		<title>L'epidemie Covid19 dans les autres pays du monde en 2021</title>
+		<title>L'epidemie Covid19 dans le monde et à Madagascar en 2021</title>
         <meta name="description" content="L'epidemie Covid19 est une actualite mondiale, plusieurs deces,cas positifs et gueris chaque jour"/>
-		<meta name="keywords" content="covid19,monde,pays,actualites,epidemie,2021"/>
+		<meta name="keywords" content="covid19,monde,pays,actualites,epidemie,2021m,Madagascar"/>
         <meta name="author" content="Tonny Andriambololona"/>
         <meta name="robots" content="index,follow"/>
         <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url();?>assets/css/design.css">
@@ -22,7 +22,7 @@
 
             <div id="tabListe"> 
                 <div id="titreMain"> 
-                    <h1>COVID19 DANS LE MONDE</h1>
+                    <h1>COVID19 DANS LE MONDE 2021</h1>
                 </div>
 
                 <div>
