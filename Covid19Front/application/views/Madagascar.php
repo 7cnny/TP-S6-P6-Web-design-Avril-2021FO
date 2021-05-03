@@ -70,9 +70,9 @@
                             </td>
                             <td> <a class="tab_caractere"> <?php echo number_format($evolutionProvinces[$i]['positifs']) ?> </a> </th>
                             <td> <a class="tab_caractere"> <?php echo number_format($evolutionProvinces[$i]['gueris']) ?> </a> </th>
-                            <td class="td-last"> <a class="tab_caractere"> <?php echo number_format($evolutionProvinces[$i]['deces']) ?> </a> </th>
-		    	    <td> 
-                                <h4> <a class="ph3" href="covid19-province-de-madagascar-<?php echo $evolutionProvinces[$i]['nom_province'] ?>-2021.html"> Voir evolution </a> </h4> 
+                            <td> <a class="tab_caractere"> <?php echo number_format($evolutionProvinces[$i]['deces']) ?> </a> </th>
+		    	    <td class="td-last"> 
+                                <h4> <a class="ph3" href="covid19-province-de-madagascar-<?php echo $evolutionProvinces[$i]['nom_province'] ?>-2021.html"> Evolution >> </a> </h4> 
                             </td>
                         </tr>
                     <?php 
