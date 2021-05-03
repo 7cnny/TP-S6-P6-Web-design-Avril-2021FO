@@ -59,26 +59,31 @@
                             <th><a class="tab_caractere">POSITIFS</a></th>
                             <th><a class="tab_caractere">GUERIS</a></th>
                             <th><a class="tab_caractere">DECES</a></th>
+                            <th><a class="tab_caractere"> </a></th>
                         </tr>
                     <?php 
                         for($i=0;$i<sizeof($evolutionProvinces);$i++) { 
                     ?>
                         <tr>
-                            <td > 
-                                <h4> <a class="ph3" href="covid19-province-de-madagascar-<?php echo $evolutionProvinces[$i]['nom_province'] ?>-2021.html"> <?php echo ucwords($evolutionProvinces[$i]['nom_province']) ?></a> </h4> 
-                            </th>
+                            <td> 
+                                <h4> <?php echo ucwords($evolutionProvinces[$i]['nom_province']) ?> </h4> 
+                            </td>
                             <td> <a class="tab_caractere"> <?php echo number_format($evolutionProvinces[$i]['positifs']) ?> </a> </th>
                             <td> <a class="tab_caractere"> <?php echo number_format($evolutionProvinces[$i]['gueris']) ?> </a> </th>
                             <td class="td-last"> <a class="tab_caractere"> <?php echo number_format($evolutionProvinces[$i]['deces']) ?> </a> </th>
+		    	    <td> 
+                                <h4> <a class="ph3" href="covid19-province-de-madagascar-<?php echo $evolutionProvinces[$i]['nom_province'] ?>-2021.html"> Voir evolution </a> </h4> 
+                            </td>
                         </tr>
                     <?php 
                         }
                     ?>
                         <tr>
                             <th></th>
-                            <th>TOTAL</th>
-                            <th>TOTAL</th>
-                            <th>TOTAL</th> 
+                            <th></th>
+                            <th></th>
+                            <th></th> 
+			    <th></th> 
                         </tr>
                     </table>
                 </div>
