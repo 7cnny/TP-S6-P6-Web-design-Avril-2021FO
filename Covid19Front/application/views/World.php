@@ -76,9 +76,9 @@
                     ?>
                         <tr>
                             <th scope="col"></th>
-                            <th scope="col">TOTAL</th>
-                            <th scope="col">TOTAL</th>
-                            <th scope="col">TOTAL</th> 
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th> 
                         </tr>
                     </table>
                 </div>
