@@ -4,6 +4,10 @@
 
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url();?>assets/css/design.css">
+    </head>
+    
     <div id="actualites">
         <div class="hActus"><h5>ACTUALITES</h5></div>
         <?php for($i=0 ; $i<sizeof($actualites) ;$i++){ ?>
