@@ -66,13 +66,13 @@
                     ?>
                         <tr>
                             <td> 
-                                <h4> <?php echo ucwords($evolutionProvinces[$i]['nom_province']) ?> </h4> 
+                                <h4> <a class="ph3"> <?php echo ucwords($evolutionProvinces[$i]['nom_province']) ?> </a> </h4> 
                             </td>
                             <td> <a class="tab_caractere"> <?php echo number_format($evolutionProvinces[$i]['positifs']) ?> </a> </th>
                             <td> <a class="tab_caractere"> <?php echo number_format($evolutionProvinces[$i]['gueris']) ?> </a> </th>
                             <td> <a class="tab_caractere"> <?php echo number_format($evolutionProvinces[$i]['deces']) ?> </a> </th>
 		    	    <td class="td-last"> 
-                                <h4> <a class="ph3" href="covid19-province-de-madagascar-<?php echo $evolutionProvinces[$i]['nom_province'] ?>-2021.html"> Evolution >> </a> </h4> 
+                                <a class="ph3" href="covid19-province-de-madagascar-<?php echo $evolutionProvinces[$i]['nom_province'] ?>-2021.html"> Evolution >> </a> </h4> 
                             </td>
                         </tr>
                     <?php 
