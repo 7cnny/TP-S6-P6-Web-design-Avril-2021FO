@@ -60,7 +60,8 @@
                         s'est installé et propagé partout ici a <strong>Madagascar</strong>. Depuis le debut de 
                         l'annee 2021, le nombre de cas <strong>positifs</strong> mais aussi de <strong>deces</strong> 
                         n'a cessé d'augmenter, mais egalement de patients <strong>gueris</strong>. Nous assistons 
-                        en ce moment a ce qui semble etre une deuxieme vague de l'epidemie. Voici les chiffres: 
+                        en ce moment a ce qui semble etre une deuxieme vague de l'epidemie. Voici les chiffres pour la
+			province de <?php echo strtoupper($province) ?>: 
                     </h3>
                 </div>
                 
