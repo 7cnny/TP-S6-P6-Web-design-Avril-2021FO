@@ -9,10 +9,10 @@
     </head>	
 
     <footer>
-        <img src="<?php echo base_url();?>assets/img/itu.png" width="50" height="50" class="d-inline-block align-top">
+        <img src="<?php echo base_url();?>assets/img/itu.png" alt="logo-itu-covid19-monde-madagagascar" width="50" height="50" class="d-inline-block align-top">
         <div id="footer-e1">
             <a class="footer-titre"><u>Nom/Prenom:</u></a><br><br>
-            <a>ANDRIAMBOLOLONA TONNY</a><br><br>
+            <a>Andriambololona Tonny</a><br><br>
         </div>
 
         <div id="footer-e1">
