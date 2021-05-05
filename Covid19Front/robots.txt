@@ -1,0 +1,1 @@
+Sitemap: https://front-covid19.herokuapp.com/sitemap.xml
