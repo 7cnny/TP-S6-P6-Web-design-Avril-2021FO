@@ -9,25 +9,28 @@
     </head>	
 
     <footer>
-        <img src="<?php echo base_url();?>assets/img/itu.png" alt="logo-itu-covid19-monde-madagagascar" width="50" height="50" class="d-inline-block align-top">
+        <div id="logo-itu">
+            
+        </div>
+        
         <div id="footer-e1">
             <a class="footer-titre"><u>Nom/Prenom:</u></a><br><br>
-            <a>Andriambololona Tonny</a><br><br>
+            <a class="footer-text">Andriambololona Tonny</a><br><br>
         </div>
 
         <div id="footer-e1">
             <a class="footer-titre"><u>Numero:</u></a><br><br>
-            <a >ETU 0000871</a><br><br>
+            <a class="footer-text">ETU000871</a><br><br>
         </div>
 
         <div id="footer-e2">
             <a class="footer-titre"><u>Contact:</u></a><br><br>
-            <a>AndriambololonaTonny88@gmail.com</a><br><br>
+            <a class="footer-text">AndriambololonaTonny88@gmail.com</a><br><br>
         </div>
 
         <div id="footer-e2">
             <a class="footer-titre"><u>Tel:</u></a><br><br>
-            <a>034 43 426 88</a><br><br>
+            <a class="footer-text">034 43 426 88</a><br><br>
         </div>
     </footer>
  </html>

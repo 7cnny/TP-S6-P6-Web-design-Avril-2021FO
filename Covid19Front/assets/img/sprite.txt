@@ -1,0 +1,29 @@
+.bg-covid {
+    width: 40px; height: 40px;
+    background: url('css_sprites.png') -20px -20px;
+}
+
+.bg-itu {
+    width: 114px; height: 106px;
+    background: url('css_sprites.png') -20px -340px;
+}
+
+.bg-map {
+    width: 40px; height: 40px;
+    background: url('css_sprites.png') -20px -100px;
+}
+
+.bg-soin {
+    width: 40px; height: 40px;
+    background: url('css_sprites.png') -20px -180px;
+}
+
+.bg-virus {
+    width: 40px; height: 40px;
+    background: url('css_sprites.png') -20px -260px;
+}
+
+.bg-COVID_19_madagascar_et_monde {
+    width: 870px; height: 250px;
+    background: url('css_sprites.png') -20px -486px;
+}

@@ -1,6 +1,6 @@
 #nav-principale{
     
-    background: rgb(12, 12, 12);
+    background: rgb(30, 30, 30);
 
     color: rgb(128, 127, 127);
     text-decoration: none;
@@ -51,7 +51,7 @@ img.logo{
 
 #fm1{
     
-    background-color:rgba(233, 13, 13, 0.9);
+    background-color:rgb(152, 207, 62);
     padding: 15px 15px 15px 8px;
     margin: 1px 0px 5px 0px;
     border-top-left-radius: 10px;
@@ -62,7 +62,7 @@ img.logo{
 #fm1:hover{
     
     cursor: pointer;
-    background-color:rgba(192, 0, 0, 0.966);
+    background-color:rgb(123, 168, 50);
     width: 140%;
     -webkit-transition: ease-in-out 0.3s;
     transition: 0.3s;
@@ -84,7 +84,7 @@ img.logo{
 #fm2:hover{
     
     cursor: pointer;
-    background-color:rgba(192, 0, 0, 0.966);
+    background-color:rgba(194, 6, 6, 0.9);
     width: 140%;
     -webkit-transition: ease-in-out 0.3s;
     transition: 0.3s;

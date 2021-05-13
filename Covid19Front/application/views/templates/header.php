@@ -13,11 +13,11 @@
 
     <nav id="nav-principale">
         <div class="navLogo">
-            <a style="text-decoration:none;color:rgb(153, 18, 18)">COVITU-19</a>
+            <a style="text-decoration:none;color:rgb(152, 207, 62)">COVITU-19</a>
         </div>
     
         <div class="nav4">
-            <a class="textMenu" routerLink="/login" routerLinkActive="active" style="text-decoration:none;color:rgb(153, 18, 18)">Contact: 034 43 426 88</a>
+            <a class="textMenu" routerLink="/login" routerLinkActive="active" style="text-decoration:none;color:rgb(152, 207, 62)">Contact: 034 43 426 88</a>
         </div>
     </nav>
 

@@ -7,9 +7,9 @@
     
     <head>
 		<meta charset="utf-8">
-		<title>Actualites Covid19 en 2021</title>
-        <meta name="description" content="Toutes les actualites sur l'epidemie covid19 en 2021 a Madagascar et autres pays du monde"/>
-		<meta name="keywords" content="covid19,actualites,2021,monde,madagascar,pays"/>
+		<title>Actualités de la pandémie Covid-19 en 2021</title>
+        <meta name="description" content="COVITU-19 | Toutes les actualites sur l'epidemie covid-19 en 2021 a Madagascar et dans le monde"/>
+		<meta name="keywords" content="covid-19,covid,actualites,2021,monde,madagascar,pays"/>
         <meta name="author" content="Tonny Andriambololona"/>
         <meta name="robots" content="index,follow"/>
         <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url();?>assets/css/design.css">
@@ -22,7 +22,7 @@
 
             <div id="tabListe"> 
                 <div id="titreMain"> 
-                    <h1>ACTUALITES SUR LE COVID19</h1>
+                    <h1><a class="covid">COVID-19<a> <br> ACTUALITES EN 2021</h1>
                 </div>
 
                 <div>
@@ -37,6 +37,12 @@
                     <h3>
                         &emsp;&emsp; <?php echo $details_actualite['paragraphe'] ?>
                     </h3>
+                </div>
+
+                <div id="date-auteur">                      
+                    <b><u>Date:</u></b> <i class="end"><?php echo $details_actualite['date_actu'] ?></i>
+                    <br><br>
+                    <b><u>Auteur:</u></b> <i class="end"><?php echo $details_actualite['auteur'] ?></i>
                 </div>
             </div>
 

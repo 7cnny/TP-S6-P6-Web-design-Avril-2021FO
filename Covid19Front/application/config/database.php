@@ -75,6 +75,29 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
+	'hostname' => '',
+	'username' => 'covid19_url',
+	'password' => '123456',
+	'database' => 'covid19_url',
+	'dbdriver' => 'postgre',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => (ENVIRONMENT !== 'production'),
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
+	'save_queries' => TRUE
+);
+
+/*
+$db['default'] = array(
+	'dsn'	=> '',
 	'hostname' => 'ec2-63-34-97-163.eu-west-1.compute.amazonaws.com',
 	'username' => 'wqbwvzounhfmet',
 	'password' => 'eb23e7d5134938b7e9200eac2108f29d92695e26bc35ab9ddce65c01cf26359b',
@@ -94,3 +117,4 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+*/

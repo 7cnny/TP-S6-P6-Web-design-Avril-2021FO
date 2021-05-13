@@ -1,5 +1,5 @@
 body{
-    min-height: 73vh;  
+    min-height: 80vh;  
 }
 
 ::selection { background-color: #e11a00; color: white; }
@@ -89,14 +89,21 @@ body{
     padding: 9px 0px 0px 0px;
 }
 
+@media only screen and (max-width: 600px){
+    #actualites{
+        background-color: #c21b05;
+        max-height: 1000px;
+    }
+}
+
 #actualites{
     background-color: rgb(253, 253, 253);
     margin: 90px 0px 40px 0px;
     padding: 10px 10px 10px 10px;
     min-width: 250px;
     width: 29%;
-    height: 500px;
     overflow: auto;
+    max-height: 750px;
 }
 
 
@@ -114,7 +121,7 @@ body{
 
 #SingleActu:hover{
     cursor: pointer;
-    box-shadow: 1px 1px 15px  rgb(53, 53, 53);
+    box-shadow: 1px 1px 15px rgb(53, 53, 53);
     border-radius: 3px;
 }
 
@@ -134,23 +141,43 @@ body{
 
     justify-items: flex-end;
     font-size: 110%;
-    border-left: rgb(46, 46, 46) solid 4px;
+    border-left: rgb(151, 255, 0) solid 4px;
 }
 
 /* ---------------------------------- */
 
-#titreMain{
-    background-image: url('../img/COVID-19-madagascar-et-monde.jpg');
-    background-size: cover;
-    height: 100px;
-    padding:3px 3px 3px 3px;
-    font-size: 2.2vmin;
+@media only screen and (max-width: 500px){
+    #titreMain{
+        background: url('../img/spritefinal.png') -20px -486px;
+        background-repeat: no-repeat;
+        height: 100px;
+        padding:3px 3px 3px 3px;
+        font-size: 2.2vmin;
+    }
+}
+
+@media only screen and (min-width: 500px){
+    #titreMain{
+        background: url('../img/spritefinal.png') -20px -486px;
+        background-repeat: no-repeat;
+        height: 200px;
+        padding:3px 3px 3px 3px;
+        font-size: 2.2vmin;
+    }
 }
 
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(172, 33, 33);
     margin: 4px 4px 1px 1px;
+    font-size: 2.7vmin;
+    
+    padding-left: 10px;
+}
+a.covid{
+    font-size: 3.9vmin;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
 }
 
 h2{
@@ -163,7 +190,7 @@ h2{
 
 h4{
     padding: 0px 0px 0px 0px;
-    margin: 3px 0px 6px 0px;
+    margin: 4px 0px 7px 0px;
 }
 
 h6{
@@ -215,16 +242,28 @@ h3{
     border-right: 2px solid lightgray;
 }
 
-a.tab_caractere{
+.tab_caractere{
     color: rgb(94, 88, 88);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+th.icon-th-map{
+    background: url('../img/spritefinal.png') no-repeat 20px -100px;
+}
+th.icon-th-posi{
+    background: url('../img/spritefinal.png') no-repeat 20px -260px;
+}
+th.icon-th-soin{
+    background: url('../img/spritefinal.png') no-repeat 20px -180px;;
+}
+th.icon-th-dead{
+    background: url('../img/spritefinal.png') no-repeat 20px -20px;;
 }
 
 table{
     padding-left: 25px;
     padding-right: 10px;
     border-spacing: 0px 2px;
-    box-shadow: 3px 4px 4px 4px rgb(107, 107, 107);
 }
 
 th{
@@ -248,4 +287,16 @@ td.td-last{
 
 tr{
     height: 20px;
+}
+
+#date-auteur{
+    padding: 0px 15px 0px 0px;
+    text-align: end;
+    font-size: 2.1vmin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+i.end{
+    font-weight: 100;
+    color: rgb(70, 68, 68);
 }

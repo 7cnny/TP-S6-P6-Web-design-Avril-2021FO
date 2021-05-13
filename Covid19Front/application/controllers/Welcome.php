@@ -9,11 +9,11 @@
 			$this->load->model('Fonctions');
 			$this->load->model('Actualites_f');
 
-			$data['evolutionPays']=$this->Fonctions->getEvolutionParPays();
+			$data['evolutionProvinces']=$this->Fonctions->getEvolutionParProvince("madagascar");
 			$data['actualites']=$this->Actualites_f->getActualites();
 
 			$this->load->view('templates/header');
-			$this->load->view('World',$data);
+			$this->load->view('Madagascar',$data);
 			$this->load->view('templates/footer');
 		}	
 
