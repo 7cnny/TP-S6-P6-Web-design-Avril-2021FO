@@ -24,8 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'http://localhost:80/OptimisationCovid19Front/';
-//$config['base_url'] = 'https://front-covid19.herokuapp.com';
+//$config['base_url'] = 'http://localhost:80/OptimisationCovid19Front/';
+$config['base_url'] = 'https://front-covid19.herokuapp.com';
 
 /*
 |--------------------------------------------------------------------------
